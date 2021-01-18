@@ -1,95 +1,144 @@
 {
-    "broadArea": {
-        "name": "Computer-Science-and-Engineering",
-        "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
-    },
-    "lab": "Speech Signal Processing",
-    "deployLab": ,
-    "phase": 3 ,
-    "collegeName": "IIITH",
-    "baseUrl": "http://ssp-iiith.vlabs.ac.in",
-    "introduction": "Welcome to the Speech Signal Processing Lab",
-    "experiments": [
-      {
+  "broadArea": {
+    "name": "Computer Science and Engineering:",
+    "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
+  },
+  "lab": "Speech Signal Processing",
+  "phase": 3,
+  "deployLab": true,
+  "collegeName": "IIITH",
+  "baseUrl": "ssp-iiith.vlabs.ac.in",
+  "introduction": "Welcome to the Speech Signal Processing Lab",
+  "experiments": [
+    {
       "name": "Manual speech signal-to-symbol transformation",
-      "short-name": "speech signal-to-symbol-transformation ",
+      "short-name": "speech-signal-to-symbol-transformation",
       "repo": "https://github.com/virtual-labs/exp-manual-speech-signal-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
-      },
-      {
+    },
+    {
       "name": "Speech production mechanism",
       "short-name": "production-mechanism",
       "repo": "https://github.com/virtual-labs/exp-speech-production-mechanism-iiith",
-      "tag": "v1.0.0",
-      "deploy": true
-      },
-      {
-      "name": "Nature of speech signal",
-      "short-name": "nature of-speech",
-      "repo": "https://github.com/virtual-labs/exp-nature-speech-signal-iiith",
       "tag": "v1.0.1",
       "deploy": true
-      },
-      {
-      "name": "Basics of DSP",
-      "short-name": "basics of-dsp",
-      "repo": "https://github.com/virtual-labs/exp-basics-of-dsp-iiith",
-      "tag": "v1.0.0",
+    },
+    {
+      "name": "Nature of speech signal",
+      "short-name": "nature-of-speech",
+      "repo": "https://github.com/virtual-labs/exp-nature-speech-signal-iiith",
+      "tag": "v1.0.2",
       "deploy": true
-      },
-
-      {
+    },
+    {
+      "name": "Basics of DSP",
+      "short-name": "basics-of-dsp",
+      "repo": "https://github.com/virtual-labs/exp-basics-of-dsp-iiith",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
       "name": "Short-time spectrum analysis of speech",
       "short-name": "short-time-spectrum-analysis",
       "repo": "https://github.com/virtual-labs/exp-shorttime-spectrum-analysis-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
-      },
-
-      {
+    },
+    {
       "name": "Spectrographic analysis of speech",
       "short-name": "spectrographic-analysis",
       "repo": "https://github.com/virtual-labs/exp-spectrographic-analysis-speech-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
-      },
-      {  
+    },
+    {
       "name": "Cepstral analysis of speech",
       "short-name": "cepstral-analysis",
       "repo": "https://github.com/virtual-labs/exp-cepstral-analysis-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
-      },
-      {  
+    },
+    {
       "name": "Linear prediction analysis of speech",
       "short-name": "linear-prediction-analysis",
       "repo": "https://github.com/virtual-labs/exp-linear-prediction-analysis-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
-      },
-      {  
+    },
+    {
       "name": "Formant synthesis",
       "short-name": "formant-synthesis",
-      "repo": " https://github.com/virtual-labs/exp-formant-synthesis-iiith",
-      "tag": "v1.0.0",
+      "repo": "https://github.com/virtual-labs/exp-formant-synthesis-iiith",
+      "tag": "v1.0.1",
       "deploy": true
-      },
-      {  
+    },
+    {
       "name": "Analysis by synthesis of speech",
       "short-name": "analysis-by-synthesis",
       "repo": "https://github.com/virtual-labs/exp-analysis-by-synthesis-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
-      },
-   ],
-    "targetAudience": {
-        "UG": ["Senior undergraduate students"],
-        "PG": ["Postgraduate students and Research scholars"]
-    },
-    "objective": "To learn and understand the basic concepts of speech signal processing.",
-    "courseAlignment": {
-        "description": "This virtual lab on speech signal processing is to be used as a supplement to a parallel course on the same topic. It is not designed to be a complete course/tutorial by itself where a student can learn speech signal processing just by going through the designed experiments.",
-        "universities": []
     }
+  ],
+  "targetAudience": {
+    "UG": ["Senior undergraduate students"],
+    "PG": ["Postgraduate students and Research scholars"]
+  },
+  "objective": "To learn and understand the basic concepts of speech signal processing.",
+  "courseAlignment": {
+    "description": "This virtual lab on speech signal processing is to be used as a supplement to a parallel course on the same topic. It is not designed to be a complete course/tutorial by itself where a student can learn speech signal processing just by going through the designed experiments.",
+    "universities": ["Universities with Computer Science and Engineering"]
+  },
+  "version": "v0.1.1",
+  "production": true,
+  "current_item": {
+    "item": "feedback",
+    "target": "feedback.html",
+    "label": "Feedback"
+  },
+  "menu": [
+    {
+      "item": "aim",
+      "target": "index.html",
+      "source": "aim.md",
+      "label": "Aim"
+    },
+    {
+      "item": "theory",
+      "target": "theory.html",
+      "source": "theory.md",
+      "label": "Theory"
+    },
+    {
+      "item": "procedure",
+      "target": "procedure.html",
+      "source": "procedure.md",
+      "label": "Procedure"
+    },
+    {
+      "item": "simulation",
+      "target": "simulation.html",
+      "label": "Simulation"
+    },
+    {
+      "item": "observations",
+      "target": "observations.html",
+      "source": "observations.md",
+      "label": "Observations"
+    },
+    {
+      "item": "assignment",
+      "target": "assignment.html",
+      "source": "assignment.md",
+      "label": "Assignment"
+    },
+    {
+      "item": "references",
+      "target": "references.html",
+      "source": "references.md",
+      "label": "References"
+    },
+    { "item": "feedback", "target": "feedback.html", "label": "Feedback" }
+  ]
 }
